@@ -25,3 +25,20 @@ body {
       color:black;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
+  table, th, td{
+      border: solid black;
+      border-style: groove;
+      background-color: wheat;
+    
+  }
+  #nav{
+    display: block;
+    padding: 8px 16px;
+    color:#000;
+    padding-top: 0%;
+    width: auto;
+    text-align: center;
+  }
+
+
+  
