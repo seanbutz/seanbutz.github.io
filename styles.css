@@ -16,6 +16,12 @@ body {
 .img-uhren{
     width: 100%;
 }
+.img-rolex{
+    display:none;
+}
+.img-ap{
+    display: none;
+}
 .img-uhren h2{
     padding-top: 30px;
     padding-left: 30px;
@@ -60,6 +66,22 @@ line-height: 44px;
     padding-top: 30px;
     padding-left: 30px;
 }
+.img-rolex{
+    display: block;
+    width: 10%;
+    height: 10%;
+    float: inline-start;
+}
+.img-ap{
+    display: block;
+    width: 10%;
+    height: 10%;
+    float: inline-start;
+}
+.img-uhren{
+    padding-top: 30px;
+    padding-left: 30px;
+}
 .img-info p{
 padding: 20px 20px 0px;
            }
@@ -92,5 +114,13 @@ padding-left: 30px;
      padding-top: 15px;
      width: 100%;
      float: middle;
+ }
+ .img-rolex{
+     width: 25%;
+     height: 25%;
+ }
+ .img-ap{
+     width: 25%;
+     height: 25%;
  }
 }
