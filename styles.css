@@ -15,6 +15,15 @@ body {
 .img-info{
     width: 100%;
 } 
+.img-uhren{
+    width: 100%;
+}
+.img-uhren h2{
+    padding: 30px 30px 20px;
+    font-family: Arial;
+    font-size: 50px;
+    line-height: 44px;
+}
 .img-info h2{
 padding: 30px 30px 20px;
 font-family: Arial;
@@ -44,13 +53,16 @@ line-height: 44px;
 .img-info h2{
     padding: 20px 20px 0px;
     }
-    .img-info p{
-        padding: 20px 20px 0px;
-        }
-        .img-portraet{
-            padding-top: 30px;
-        }
+.img-uhren h2{
+    padding: 20px 30px 20px;
 }
+.img-info p{
+padding: 20px 20px 0px;
+           }
+.img-portraet{
+padding-top: 30px;
+             }
+    }
 @media only screen and (min-width: 1000px){
  #wrapper{
      width: 1000px;
@@ -62,6 +74,9 @@ line-height: 44px;
  }
  .img-info h2{
      padding: 0px 0px 0px 15px;
+ }
+ .img-uhren h2{
+padding: 0px 0px 0px 15px;
  }
  .img-info p{
      padding: 20px 0px 0px 30px;
