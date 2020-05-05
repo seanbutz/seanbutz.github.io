@@ -177,6 +177,12 @@ width: 40%;
 .img-ap{
     display: none;
 }
+.img-rm{
+    display:none;
+}
+.img-patek{
+    display:none;
+}
 .img-uhren h2{
     padding-top: 30px;
     padding-left: 30px;
@@ -235,9 +241,12 @@ opacity: 0;
 .nav-active{
     transform: translateX(0%);
 }
-
+.img-uhren h2{
+    padding-top: 30px;
+    padding-left: 30px;
 
 /*Bestimmungen für alle Browser-Fenster bis 1000px*/
+}
 }
 @media only screen and (max-width: 1000px){
     .nav-links{
@@ -276,6 +285,18 @@ opacity: 0;
     height: 10%;
     float: inline-start;
 }
+.img-patek{
+    display: block;
+    width: 10%;
+    height: 10%;
+    float: inline-start;
+}
+.img-rm{
+    display: block;
+    width: 10%;
+    height: 10%;
+    float: inline-start;
+}
 .img-uhren{
     padding-top: 30px;
     padding-left: 30px;
@@ -305,8 +326,10 @@ align-items: center;
      padding-top: 0px;
      width: 75%;
  }
+ 
  .img-info h2{
-     padding: 0px 0px 0px 15px;
+     padding-top: 30px;
+     padding-left: 30px;
  }
  .img-uhren h2{
 padding-top: 30px;
@@ -316,6 +339,7 @@ padding-left: 30px;
      padding: 20px 0px 0px 30px;
  }
  .img-uhren ul{
+     display:none;
     padding-top: 15px;
     padding-left: 30px;
  }
@@ -332,6 +356,14 @@ padding-left: 30px;
  .img-ap{
      width: 25%;
      height: 25%;
+ }
+ .img-patek{
+    width: 25%;
+    height: 25%;
+ }
+ .img-rm{
+    width: 25%;
+    height: 25%;
  }
 }
 
