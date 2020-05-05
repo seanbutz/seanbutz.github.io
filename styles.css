@@ -6,6 +6,9 @@ body {
     margin: 0;
     padding: 0;
 }
+
+
+/*CSS für Navigation*/
 nav{
     display: flex;
     justify-content: space-around;
@@ -13,7 +16,6 @@ nav{
     min-height: 8vh;
     background-color: wheat;
     font-family: 'Bebas Neue', cursive;
-
 }
 .logo{
     color: black;
@@ -36,6 +38,9 @@ width: 40%;
 .nav-links li{
      list-style: none;
 }
+/*Ende CSS für Navigation*/
+
+/*Für Mobile-Version, um Sidemenu aufzumachen*/
 .burger div{
      width: 25px; 
      height: 5px;
@@ -46,6 +51,9 @@ width: 40%;
 .burger{
     display: none;
 }
+
+
+/*Paragraphen und Teile der Seite*/
 .img-banner{
     display: none;
 }
@@ -89,6 +97,9 @@ line-height: 44px;
 .img-portraet{
     display: none;
 }
+
+
+/*Bestimmungen für Mobile-Version (funktioniert nicht auf Safari)*/
 @media only screen and (max-width: 768px){
     body{
         overflow-x: hidden;
@@ -117,19 +128,26 @@ opacity: 0;
     transform: translateX(0%);
 }
 
+
+/*Bestimmungen für alle Browser-Fenster bis 1000px*/
 }
 @media only screen and (max-width: 1000px){
     .nav-links{
     width: 60%;
     }
 }
+
+
+/*Bestimmungen für Browserfenster von 768-1000px*/
 @media only screen and (min-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
     .img-banner{
         display: block;
         width: 100%;
         
 }
-
 .img-info h2{
     padding-top: 30px;
     padding-left: 30px;
@@ -166,7 +184,12 @@ align-items: center;
     }
 
 
+
+/*Bestimmungen für Browser über 1000px*/
 @media only screen and (min-width: 1000px){
+    body{
+        overflow-x: hidden;
+    }
     .nav-links{
         width: 60%;
         }
@@ -204,6 +227,8 @@ padding-left: 30px;
  }
 }
 
+
+
 @keyframes navLinkFade{
     from{
 opacity: 0;
@@ -214,7 +239,7 @@ opacity: 1;
 transform: translateX(0px);
     }
 }
-
+/*Animation für "Burger", damit dieser von Burger zu X geht*/
 .toggle .line1{
 transform: rotate(-45deg) translate(-5px, 6px);
 }
